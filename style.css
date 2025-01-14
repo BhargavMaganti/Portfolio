@@ -58,13 +58,6 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo {
-  font-size: 2rem;
-}
-
-.logo:hover {
-  cursor: default;
-}
 
 /* HAMBURGER MENU */
 
@@ -287,11 +280,7 @@ section {
   border-radius: 2rem;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
+
 
 .details-container {
   padding: 1.5rem;
