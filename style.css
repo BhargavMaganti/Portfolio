@@ -314,9 +314,9 @@ section {
   margin: auto 0;
 }
 
-/* Skills SECTION */
+/* Publicaitons SECTION */
 
-#Skills {
+#Publications {
   position: relative;
 }
 
@@ -327,11 +327,14 @@ section {
   margin-bottom: 2rem;
 }
 
-.Skills-details-container {
-  display: flex;
-  justify-content: left;
-  flex-direction: column;
+
+.pub-details-container {
+  width: 80%; 
+  max-width: 1200px;
+  margin: 0 auto; 
 }
+
+
 
 .article-container {
   display: flex;
@@ -339,7 +342,7 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.5rem;
-  justify-content: left;
+  justify-content: center;
 }
 
 article {
@@ -359,6 +362,12 @@ article .icon {
 
 #projects {
   position: relative;
+}
+
+.Skills-details-container {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
 }
 
 .color-container {
